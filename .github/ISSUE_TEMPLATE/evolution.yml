@@ -1,0 +1,28 @@
+name: Évolution
+description: Proposer une nouvelle fonctionnalité ou une amélioration
+title: "[Évolution] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Besoin
+      description: Quel problème cette évolution résout-elle, et pour qui ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposition
+    attributes:
+      label: Solution envisagée
+  - type: input
+    id: origine
+    attributes:
+      label: Origine de la demande
+      placeholder: Interne, demande client (référence interne), réglementation…
+  - type: textarea
+    id: criteres
+    attributes:
+      label: Critères d'acceptation
+      placeholder: |
+        - L'utilisateur peut…
+        - Le document généré contient…
